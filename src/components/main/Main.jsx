@@ -8,7 +8,7 @@ function Main() {
           <h3>The 2024 PiggyVest Savings Report</h3>
         </div>
         <h1>The Better Way to Save & Invest</h1>
-        <p>
+        <p className="main-p">
           Piggyvest helps over 5 million customers achieve their financial goals
           by helping them save and invest with ease.
         </p>
