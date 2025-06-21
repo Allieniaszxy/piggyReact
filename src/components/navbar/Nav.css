@@ -7,7 +7,7 @@
   justify-content: space-between;
   max-width: 1280px;
   height: 45px;
-  /* background-color: #f2f7f8; */
+  background-color: #f2f7f8;
   z-index: 1000;
   overflow: hidden;
 }

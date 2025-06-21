@@ -2,6 +2,7 @@
   margin-top: 10%;
   display: grid;
   place-items: center;
+  margin-bottom: 7%;
 }
 .card h1 {
   font-weight: 650;
@@ -43,5 +44,56 @@
     text-decoration: none;
     font-size: 17px;
     color: #3d4f60;
+  }
+}
+
+/*media responsiveness*/
+@media (max-width: 993px) {
+  .card h1 {
+    font-size: 25px;
+    width: 28%;
+    margin: 0 auto;
+    letter-spacing: 0.05px;
+  }
+  .card p {
+    font-size: 14px;
+    width: 28%;
+    margin: 12px auto;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: 235px 235px;
+    grid-template-rows: 235px 235px 235px;
+    margin-top: 50px;
+    gap: 1rem;
+    padding: 0 10px;
+  }
+  .grid-items {
+    padding: 30px 15px;
+  }
+  .grid-items .title {
+    margin: 0;
+    font-size: 19px;
+    width: 100%;
+  }
+  .grid-items .about {
+    font-size: 10px;
+    width: 150px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .card-a {
+    position: absolute;
+    bottom: 10%;
+    img {
+      width: 0.5rem;
+      height: auto;
+      margin-right: 10px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 8px;
+      color: #3d4f60;
+    }
   }
 }

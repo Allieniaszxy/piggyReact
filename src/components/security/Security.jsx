@@ -10,11 +10,11 @@ function Security() {
           PiggyVest uses the highest level of Internet Security and it is
           secured by 256 bits SSL security encryption to ensure that your
           information is completely protected from fraud.
-          <div className="security-a">
-            <img src="./right.png" alt="right arrow button" />
-            <a href="#">More on our security measures</a>
-          </div>
         </p>
+        <div className="security-a">
+          <img src="./right.png" alt="right arrow button" />
+          <a href="#">More on our security measures</a>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,138 @@
+.Investment {
+  background-color: #fff;
+  padding: 10% 5% 17%;
+  display: grid;
+  place-items: center;
+}
+.Investment h1 {
+  font-weight: 650;
+  letter-spacing: 0.2px;
+}
+.Investment p {
+  font-size: 24px;
+  margin-top: 15px;
+  color: #3d4f60;
+}
+.investment-cont {
+  background-color: #7913e5;
+  margin-top: 5.5%;
+  border-radius: 25px;
+  padding: 30px 60px;
+  display: flex;
+  width: 92%;
+  height: 78vh;
+  position: relative;
+}
+.investment-talks .title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+.investment-talks .about {
+  font-size: 21px;
+  width: 290px;
+  color: #fff;
+  margin-top: 30px;
+}
+.investment-talks .investment-a {
+  position: absolute;
+  bottom: 8%;
+  /* margin-top: auto; */
+}
+.investment-a {
+  display: flex;
+  align-items: center;
+  img {
+    width: 2rem;
+    height: auto;
+    margin-right: 10px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+  }
+}
+.investment-img {
+  position: absolute;
+  right: 60px;
+  bottom: -5px;
+  img {
+    width: 27rem;
+  }
+}
+
+/*media responsiveness*/
+@media (max-width: 993px) {
+  .Investment h1 {
+    font-weight: 650;
+    font-size: 23px;
+    letter-spacing: 0.05px;
+  }
+  .Investment p {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #3d4f60;
+  }
+  .investment-cont {
+    background-color: #7913e5;
+    margin-top: 3%;
+    border-radius: 25px;
+    padding: 30px 60px;
+    display: flex;
+    width: 32%;
+    height: 30vh;
+    position: relative;
+  }
+  .investment-talks .title {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .investment-talks .about {
+    font-size: 10px;
+    color: #fff;
+    /* margin-top: 30px */
+    width: 100%;
+    margin: 20px auto;
+  }
+  .investment-talks .investment-a {
+    position: absolute;
+    top: -21%;
+    left: 35%;
+
+    /* bottom: 8%; */
+    /* margin-top: auto; */
+  }
+  .investment-a {
+    display: flex;
+    align-items: center;
+    img {
+      width: 0.8rem;
+      height: auto;
+      margin-right: 10px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 8px;
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+  .investment-img {
+    position: absolute;
+    top: 60.3%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    img {
+      width: 13rem;
+      /* display: none; */
+    }
+  }
+}
