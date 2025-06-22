@@ -5,6 +5,8 @@ import Card from "./components/card/Card";
 import Investment from "./components/investment/Investment";
 import Video from "./components/video/Video";
 import Customer from "./components/customers/Customer";
+import Investors from "./components/investors/Investors";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <Investment />
       <Video />
       <Customer />
+      <Investors />
+      <Footer />
     </div>
   );
 };

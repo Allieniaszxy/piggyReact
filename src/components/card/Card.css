@@ -24,6 +24,7 @@
   border-radius: 20px;
   padding: 35px 30px;
   position: relative;
+  overflow: hidden;
 }
 .title {
   font-size: 40px;
@@ -43,10 +44,129 @@
   a {
     text-decoration: none;
     font-size: 17px;
-    color: #3d4f60;
+    color: black;
+  }
+}
+.card-img {
+  position: absolute;
+  right: 30px;
+  bottom: -8px;
+  /* display: none; */
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  img {
+    width: 15rem;
+    height: auto;
   }
 }
 
+/*Hover effect*/
+
+.grid-items:hover .card-img {
+  /* background-color: black; */
+  opacity: 1;
+}
+.piggybank:hover {
+  cursor: pointer;
+  background-color: #0f60d6;
+  .title,
+  .about {
+    color: white;
+  }
+}
+.card-a {
+  img {
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}
+
+.safelock:hover {
+  cursor: pointer;
+  background-color: #3296ff;
+  .title,
+  .about {
+    color: white;
+  }
+}
+.card-a {
+  img {
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}
+
+.target:hover {
+  cursor: pointer;
+  background-color: #39c277;
+  .title,
+  .about {
+    color: white;
+  }
+}
+.card-a {
+  img {
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}
+
+.naira:hover {
+  cursor: pointer;
+  background-color: #e5288e;
+  .title,
+  .about {
+    color: white;
+  }
+}
+.card-a {
+  img {
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}
+
+.dollar:hover {
+  cursor: pointer;
+  background-color: #0c1825;
+  .title,
+  .about {
+    color: white;
+  }
+}
+.card-a {
+  img {
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}
+
+.house:hover {
+  cursor: pointer;
+  background-color: #ff783c;
+  .title,
+  .about {
+    color: white;
+  }
+}
+.card-a {
+  img {
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}
 /*media responsiveness*/
 @media (max-width: 993px) {
   .card h1 {
